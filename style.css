@@ -1,0 +1,29 @@
+:root {
+    --primary-font-family: 'Montserrat', sans-serif; 
+    --secondary-font-family: 'Courier Prime', monospace;
+    --primary-bg-color: #cedef0;
+    --secondary-bg-color: #6b9bd1;
+}
+
+h1 {
+    font-family: var(--secondary-font-family);
+}
+
+p {
+    font-family: var(--primary-font-family);
+}
+
+.hero a {
+    font-family: var(--primary-font-family);
+    background-color: var(--secondary-bg-color);
+    padding: 10px 20px;
+    color:white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: var(--primary-bg-color);
+}
