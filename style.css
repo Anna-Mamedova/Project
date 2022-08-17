@@ -5,25 +5,87 @@
     --secondary-bg-color: #6b9bd1;
 }
 
-h1 {
+h1,
+h2 {
     font-family: var(--secondary-font-family);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 45px;
 }
 
 p {
     font-family: var(--primary-font-family);
-}
-
-.hero a {
-    font-family: var(--primary-font-family);
-    background-color: var(--secondary-bg-color);
-    padding: 10px 20px;
-    color:white;
-    border-radius: 4px;
-    text-decoration: none;
+    font-size: 24px;
 }
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 180px 20px;
+    margin-bottom: 80px;
     background: var(--primary-bg-color);
+}
+
+.custom-btn {
+    font-family: var(--primary-font-family);
+    background-color: var(--secondary-bg-color);
+    padding: 15px 25px;
+    color:white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.custom-btn:hover {
+    color: white;
+}
+
+.hero p {
+    font-size: 35px;
+}
+
+.rug-description {
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-family: var(--primary-font-family);
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+        margin-bottom: 50px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .custom-btn {
+        font-size: 16px !important;
+        padding: 10px 15px;
+    }
+
+    .container img {
+        margin-top: 20px;
+    }
+
+    .rug-description {
+        margin-top: 10px;
+        text-align: center;
+    }
 }
