@@ -24,6 +24,35 @@ p {
     font-size: 24px;
 }
 
+nav{
+    padding: 8px 80px;
+    background: white;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover,
+.active {
+    color: var(--secondary-bg-color);
+    transition: all 100ms ease-in-out ;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 30px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
 .hero {
     text-align: center;
     padding: 180px 20px;
@@ -93,6 +122,10 @@ p {
         font-size: 16px;
     }
 
+    nav{
+        padding: 8px 20px;
+    }
+
     .hero {
         padding: 80px 20px;
         margin-bottom: 50px;
@@ -129,7 +162,8 @@ p {
         font-size: 16px;
     }
 
-    .content-description img {
+    .content-description img,
+    nav img {
         margin: 0px !important;
     }
 
