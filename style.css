@@ -30,6 +30,30 @@ p {
     background: var(--primary-bg-color);
 }
 
+.hero p {
+    font-size: 35px;
+}
+
+.about-hero {
+    padding: 120px 100px;
+}
+
+.about-hero h1 {
+    font-size: 50px;
+}
+
+.about-hero h2 {
+    font-size: 24px;
+}
+
+.about-hero p {
+    font-size: 18px;
+}
+
+.about-hero-description {
+    padding: 50px 50px 0px 20px;
+}
+
 .custom-btn {
     font-family: var(--primary-font-family);
     background-color: var(--secondary-bg-color);
@@ -44,9 +68,6 @@ p {
     color: white;
 }
 
-.hero p {
-    font-size: 35px;
-}
 
 .rug-description {
     margin-top: 70px;
