@@ -6,7 +6,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--secondary-font-family);
 }
 
@@ -34,24 +35,24 @@ p {
     font-size: 35px;
 }
 
-.about-hero {
+.content {
     padding: 120px 100px;
 }
 
-.about-hero h1 {
+.content h1 {
     font-size: 50px;
 }
 
-.about-hero h2 {
+.content h2 {
     font-size: 24px;
 }
 
-.about-hero p {
-    font-size: 18px;
+.content h3 {
+    font-size: 24px;
 }
 
-.about-hero-description {
-    padding: 50px 50px 0px 20px;
+.content p {
+    font-size: 18px;
 }
 
 .custom-btn {
@@ -67,7 +68,6 @@ p {
 .custom-btn:hover {
     color: white;
 }
-
 
 .rug-description {
     margin-top: 70px;
@@ -96,25 +96,30 @@ p {
         font-size: 20px;
     }
 
-    .about-hero {
+    .content {
         padding: 70px 20px;
     }
 
-    .about-hero-description {
-        padding: 0px 30px;
+    .content-description {
+        padding: 0px 30px !important;
         text-align: center;
     }
 
-    .about-hero h1 {
+    .content h1 {
         font-size: 35px;
+        margin: 0px !important;
     }
     
-    .about-hero h2 {
+    .content h2 {
         font-size: 20px;
         margin: 20px !important;
     }
+
+    .content h3 {
+        font-size: 20px;
+    }
     
-    .about-hero p {
+    .content p {
         font-size: 16px;
     }
 
